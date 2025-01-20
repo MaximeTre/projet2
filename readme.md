@@ -59,7 +59,7 @@ venv\Scripts\activate         # Sur Windows
 
 1. Exécutez le script Python :
 
-    bash```
+    ```bash
         python main.py
     ```
 
@@ -71,7 +71,7 @@ venv\Scripts\activate         # Sur Windows
 
 Le fichier data.txt doit contenir les questions et réponses au format suivant :
 
-    bash```
+    ```bash
         Question 1 ? Propositions (séparées par des virgules) ;; Réponse correcte
         Question 2 ? Propositions (séparées par des virgules) ;; Réponse correcte
         ...
@@ -79,7 +79,7 @@ Le fichier data.txt doit contenir les questions et réponses au format suivant :
 
 ### Exemples
 
-    bash```
+    ```bash
         Quelle est la capitale de la France ? Paris, Londres, Madrid ;; Paris
         Quelle est la couleur du ciel par temps clair ? Bleu, Rouge, Vert ;; Bleu
     ```
@@ -94,19 +94,19 @@ Les contributions sont les bienvenues ! Si vous souhaitez ajouter des fonctionna
 
 2. Créez une nouvelle branche pour vos modifications :
 
-    bash```
+    ```bash
         git checkout -b ma-nouvelle-fonctionnalite
     ```
 
 3. Apportez vos modifications et committez-les :
 
-    bash```
+    ```bash
         git commit -m "Ajout de ma nouvelle fonctionnalité"
     ```
 
 Poussez vos modifications vers votre fork :
 
-    bash```
+    ```bash
         git push origin ma-nouvelle-fonctionnalite
     ```
 
