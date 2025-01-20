@@ -42,16 +42,17 @@ Ce projet est une application Python qui génère un quiz interactif à partir d
 ### Étapes
 
 1. Clonez le dépôt ou copiez les fichiers dans un dossier local :
-   ```bash
-   git clone https://github.com/votre_nom/quiz-terminal.git
-   cd quiz-terminal
+    ```bash
+    git clone https://github.com/votre_nom/quiz-terminal.git
+    cd quiz-terminal
     ```
+
 2. (Facultatif) Créez et activez un environnement virtuel :
-```bash
-python -m venv venv
-source venv/bin/activate      # Sur macOS/Linux
-venv\Scripts\activate         # Sur Windows
-```
+    ```bash
+    python -m venv venv
+    source venv/bin/activate      # Sur macOS/Linux
+    venv\Scripts\activate         # Sur Windows
+    ```
 
 4. Assurez-vous que le fichier data.txt est présent dans le même dossier que le script.
 
@@ -60,7 +61,7 @@ venv\Scripts\activate         # Sur Windows
 1. Exécutez le script Python :
 
     ```bash
-        python main.py
+    python main.py
     ```
 
 2. Entrez le nombre de questions que vous souhaitez répondre.
@@ -72,16 +73,16 @@ venv\Scripts\activate         # Sur Windows
 Le fichier data.txt doit contenir les questions et réponses au format suivant :
 
     ```bash
-        Question 1 ? Propositions (séparées par des virgules) ;; Réponse correcte
-        Question 2 ? Propositions (séparées par des virgules) ;; Réponse correcte
-        ...
+    Question 1 ? Propositions (séparées par des virgules) ;; Réponse correcte
+    Question 2 ? Propositions (séparées par des virgules) ;; Réponse correcte
+    ...
     ```
 
 ### Exemples
 
     ```bash
-        Quelle est la capitale de la France ? Paris, Londres, Madrid ;; Paris
-        Quelle est la couleur du ciel par temps clair ? Bleu, Rouge, Vert ;; Bleu
+    Quelle est la capitale de la France ? Paris, Londres, Madrid ;; Paris
+    Quelle est la couleur du ciel par temps clair ? Bleu, Rouge, Vert ;; Bleu
     ```
 
 ---
@@ -95,19 +96,19 @@ Les contributions sont les bienvenues ! Si vous souhaitez ajouter des fonctionna
 2. Créez une nouvelle branche pour vos modifications :
 
     ```bash
-        git checkout -b ma-nouvelle-fonctionnalite
+    git checkout -b ma-nouvelle-fonctionnalite
     ```
 
 3. Apportez vos modifications et committez-les :
 
     ```bash
-        git commit -m "Ajout de ma nouvelle fonctionnalité"
+    git commit -m "Ajout de ma nouvelle fonctionnalité"
     ```
 
-Poussez vos modifications vers votre fork :
+4. Poussez vos modifications vers votre fork :
 
     ```bash
-        git push origin ma-nouvelle-fonctionnalite
+    git push origin ma-nouvelle-fonctionnalite
     ```
 
 Ouvrez une Pull Request pour révision.
