@@ -72,18 +72,14 @@ Ce projet est une application Python qui génère un quiz interactif à partir d
 
 Le fichier data.txt doit contenir les questions et réponses au format suivant :
 
-    ```bash
     Question 1 ? Propositions (séparées par des virgules) ;; Réponse correcte
     Question 2 ? Propositions (séparées par des virgules) ;; Réponse correcte
     ...
-    ```
 
 ### Exemples
 
-    ```bash
     Quelle est la capitale de la France ? Paris, Londres, Madrid ;; Paris
     Quelle est la couleur du ciel par temps clair ? Bleu, Rouge, Vert ;; Bleu
-    ```
 
 ---
 
