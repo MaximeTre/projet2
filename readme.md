@@ -60,7 +60,7 @@ venv\Scripts\activate         # Sur Windows
 1. Exécutez le script Python :
 
     bash```
-    python main.py
+        python main.py
     ```
 
 2. Entrez le nombre de questions que vous souhaitez répondre.
