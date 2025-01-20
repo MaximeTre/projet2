@@ -58,6 +58,7 @@ venv\Scripts\activate         # Sur Windows
 ## Utilisation
 
 1. Exécutez le script Python :
+
     bash```
     python main.py
     ```
